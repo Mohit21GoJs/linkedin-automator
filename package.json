@@ -8,9 +8,15 @@
   "scripts": {
     "setup-osx": "sh scripts/setup-osx.sh",
     "start-gecko": "./geckodriver --port 4444",
-    "start-gecko-daemon": "./geckodriver --port 4444 &",
+    "start-gecko-daemon": "./geckodriver --port 4444 &"
   },
   "dependencies": {
     "webdriverio": "^5.7.15"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^5.7.15",
+    "@wdio/local-runner": "^5.7.15",
+    "@wdio/mocha-framework": "^5.7.14",
+    "@wdio/sync": "^5.7.13"
   }
 }
