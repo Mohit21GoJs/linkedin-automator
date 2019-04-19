@@ -8,7 +8,8 @@
   "scripts": {
     "setup-osx": "sh scripts/setup-osx.sh",
     "start-gecko": "./geckodriver --port 4444",
-    "start-gecko-daemon": "./geckodriver --port 4444 &"
+    "start-gecko-daemon": "./geckodriver --port 4444 &",
+    "start-script": "loginUserName=****@gmail.com password=**** ./node_modules/.bin/wdio wdio.conf.js"
   },
   "dependencies": {
     "webdriverio": "^5.7.15"
