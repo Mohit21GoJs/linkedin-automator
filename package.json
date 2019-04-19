@@ -6,6 +6,11 @@
   "author": "Mohit Yadav <mohit.yadav@xebia.com>",
   "license": "MIT",
   "scripts": {
-    "setup-osx": "sh scripts/setup-osx.sh"
+    "setup-osx": "sh scripts/setup-osx.sh",
+    "start-gecko": "./geckodriver --port 4444",
+    "start-gecko-daemon": "./geckodriver --port 4444 &",
+  },
+  "dependencies": {
+    "webdriverio": "^5.7.15"
   }
 }
